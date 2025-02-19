@@ -1,0 +1,72 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/gif" href="images.png">
+    <link rel="stylesheet" href="style.css" />
+    <title>savatge</title>
+    <script
+    data-goatcounter="https://fawn.goatcounter.com/count"
+    async
+    src="//gc.zgo.at/count.js"
+    ></script>
+   
+  </head>
+  <body>
+    <div
+      class="hover-container"
+      style="
+        display: flex;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      "
+    >
+      <div class="image-container">
+        <img
+          src="kanye-west-donda.gif"
+          style="width: 200px"
+          class="hidden"
+          onload="this.classList.add('visible')"
+        />
+      </div>
+      <div
+        style="
+          font-family: Arial, Helvetica, sans-serif;
+          padding-left: 10px;
+          padding-top: 10px;
+        "
+      >
+        <a href="https://x.com/joacosavatge">twitter</a> /
+        <a href="https://www.instagram.com/joacosavatge/">ig</a>
+        <br />
+        <a href="https://steamcommunity.com/id/savatge/">steam</a>
+        <br />
+        <span>discord: @savatge</span>
+        <br />
+        <div id="times" style="font-size: 11px;"></div>
+        <script>
+          function updateTime() {
+            const times = document.getElementById("times");
+            times.textContent = `
+            ${new Date().toLocaleString("en-US", {
+              timeZone: "America/Buenos_Aires",
+              timeStyle: "medium",
+            })}`;
+          }
+          updateTime();
+          setInterval(updateTime, 1000);
+        </script>
+      </div>
+    </div>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"914759b9fd8a1af4","version":"2025.1.0","r":1,"token":"6bcd32896c124b7c8c30b2accbf8de38","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
+
+<p class="footer-text"><a href="https://youtu.be/2-kKCjVYABk?si=uPHUSsTYo4v0Era5">play</a></p>
+
+</body>
+</html>

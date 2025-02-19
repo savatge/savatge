@@ -1,0 +1,43 @@
+*{
+    font-family: 'JetBrains Mono', serif       
+}
+
+.footer-text {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: rgb(150, 150, 150);
+}
+.jetbrains-mono-unique {
+    font-family: "JetBrains Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+a {
+    color: black;
+    text-decoration: underline;
+  }
+  .image-container {
+    width: 200px;
+    height: 200px;
+  }
+  .hidden {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .visible {
+    opacity: 1;
+  }
+  #times {
+    height: 60px;
+    width: 200px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .hover-container:hover #times {
+    opacity: 1;
+  }
